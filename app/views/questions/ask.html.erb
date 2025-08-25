@@ -1,0 +1,8 @@
+<div class="w-50 p-3">
+  <h1 class="m-4">Stupid Coach</h1>
+  <p class="m-4 fw-light">Ask your coach anything: </p>
+  <form class="m-4 input-group" action="/answer" method="get">
+    <input class="form-control" type="text" name="ask" value="<%= params[:ask]%>">
+    <input class="btn btn-primary" type="submit" value="Ask!">
+  </form>
+</div>
